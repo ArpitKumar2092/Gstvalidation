@@ -15,10 +15,10 @@ class Gstinchecker {
 
     function check_my_gst_number($param1){
     	if($this->validategstin($param1)){
-    		echo "1";
+    		
     		return(1);
     	}else{
-    		echo "00;";
+    		
     		return(0);
     	}
     }
@@ -31,8 +31,7 @@ class Gstinchecker {
     			return(0);
     		}
 
-    	}else{
-    		echo "0";
+    	}else
     		return(0);
     	}
     	
